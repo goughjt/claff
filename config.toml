@@ -20,8 +20,24 @@ languageCode = "en-us"
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Home"
-  url = ""
+  name = "Illustrations"
+  url = "categories/illustrations/"
+
+  [[params.navlinks]]
+  name = "Photography"
+  url = "categories/photography"
+
+  [[params.navlinks]]
+  name = "Projects"
+  url = "categories/projects"
+
+  [[params.navlinks]]
+  name = "Posters"
+  url = "categories/posters"
+
+  [[params.navlinks]]
+  name = "Work"
+url = "categories/work"
 
   [params.social]
   facebook      = ""

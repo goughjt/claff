@@ -24,7 +24,6 @@ build:
   steps:
     - arjen/hugo-build@1.14.1:
         theme: cc
-        flags: --disableSitemap=true
 deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:

@@ -1,2 +1,3 @@
 hugo site for claff, with mangled hugo-creative-theme
 ...
+I found this handy: https://medium.com/@LovettLovett/github-pages-godaddy-f0318c2f25a
