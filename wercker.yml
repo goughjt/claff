@@ -3,7 +3,7 @@
 # If you want Google's container you would reference google/golang
 # Read more about containers on our dev center
 # http://devcenter.wercker.com/docs/containers/index.html
-box: wercker/default
+box: golang
 # This is the build pipeline. Pipelines are the core of wercker
 # Read more about pipelines on our dev center
 # http://devcenter.wercker.com/docs/pipelines/index.html
@@ -23,8 +23,12 @@ build:
   # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - arjen/hugo-build@1.14.1:
-            theme: cc
+        theme: cc
+        flags: --disableSitemap=true
 deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
+        domain: github.com
+        repo: goughjt.github.io/claff/
+        basedir: public
