@@ -1,16 +1,36 @@
 /* your styles go here */
+html, body, #all {
+  height: 100%
+}
 
 #sidebar {
   border: black;
   border-style: solid;
   border-width: 12px;
   min-height: 660px;
+  padding-top: 10px;
+  padding-left: 8px;
 }
 
 .sidebar-heading {
-    border-bottom: black;
-    border-bottom-style: solid;
     font-size: 26px;
+    width: 100%;
+}
+
+.sidebar-heading a img{
+    width: 100%;
+}
+
+.sidebar-content {
+  padding-left: 0px;
+}
+
+.sidebar-menu {
+  padding-left: 30px;
+}
+
+.sidebar-menu li{
+  font-size: 20px;
 }
 
 .row {
@@ -39,6 +59,17 @@
   padding: 50px;
 }
 
+.container-fluid {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -92px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.claff-footer, .push {
+    height: 92px; /* .push must be the same height as .footer */
+}
+
 .box-masonry-text h4{
   font-size: 24px;
 }
@@ -54,7 +85,7 @@
 .box-masonry-image{
   min-width: 100%;
   height: auto;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .box-masonry .box-masonry-image{
@@ -80,6 +111,16 @@ p.social a {
 
 .fa {
   font-size: 30px;
+}
+
+.claff-footer a p u {
+  text-decoration: none;
+  border-bottom: black;
+  border-bottom-style: solid;
+  border-width: 8px;
+  color: black;
+  font-size: 27px;
+  margin-left: 50px;
 }
 
 @media (max-width: 767px) {

@@ -5,6 +5,7 @@ draft = false
 image = "img/fulls/finished degree final.jpg"
 showonlyimage = false
 weight = 1
+titlecolor = "white"
 +++
 
 This is my final degree

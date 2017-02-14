@@ -5,6 +5,7 @@ date = "2017-01-22T21:31:10Z"
 title = "carecabs"
 image = "img/fulls/CareCabs.jpg"
 draft = false
+titlecolor = "white"
 
 +++
 
