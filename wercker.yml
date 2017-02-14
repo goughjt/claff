@@ -29,4 +29,4 @@ deploy:
     - gh-pages:
         token: $GIT_TOKEN
         domain: goughjt.github.io/claff/
-        basedir: public
+        basedir: build
