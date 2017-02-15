@@ -1,4 +1,4 @@
-baseurl = "peacefulprogramming.xyz"
+baseurl = "localhost:1313"
 title = "Conor Claffey"
 theme = "cc"
 languageCode = "en-us"
