@@ -1,4 +1,4 @@
-baseurl = "localhost:1313"
+baseurl = "thejbangers.com"
 title = "Conor Claffey"
 theme = "cc"
 languageCode = "en-us"
@@ -10,7 +10,7 @@ languageCode = "en-us"
 [params]
   title1 = "CONOR"
   title2 = "CLAFFEY"
-  # blue, green, pink (default), red, sea, violet
+  # blue, green, pink (default), red, sea, viofirelet
   style = "green"
   description = ""
   # copyright = "&copy;2016 Conor Claffey"
