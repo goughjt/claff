@@ -1,3 +1,5 @@
 .DS_Store
+public/
 storee/
 themes/cc/README.md
+.wercker/

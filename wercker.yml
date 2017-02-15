@@ -14,8 +14,6 @@ build:
     - arjen/hugo-build:
         version: "1.14.1"
         theme: cc
-        flags: --buildDrafts=false
-        disable_pygments: true
 
 deploy:
   steps:
