@@ -25,19 +25,19 @@ languageCode = "en-us"
 
   [[params.navlinks]]
   name = "Photography"
-  url = "categories/photography"
+  url = "categories/photography/"
 
   [[params.navlinks]]
   name = "Projects"
-  url = "categories/projects"
+  url = "categories/projects/"
 
   [[params.navlinks]]
   name = "Posters"
-  url = "categories/posters"
+  url = "categories/posters/"
 
   [[params.navlinks]]
   name = "Work"
-url = "categories/work"
+  url = "categories/work/"
 
   [params.social]
   facebook      = ""

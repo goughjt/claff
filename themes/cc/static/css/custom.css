@@ -123,6 +123,15 @@ p.social a {
   margin-left: 50px;
 }
 
+/*get those little arrows in the center of the category links*/
+.box-masonry .box-masonry-image.with-hover-icon::after {
+    top: 100px;
+}
+
+.img-responsive {
+    max-width: 150%;
+}
+
 @media (max-width: 767px) {
   .row-offcanvas-left.active {
       left: 60%;
