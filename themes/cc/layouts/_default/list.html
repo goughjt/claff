@@ -6,11 +6,11 @@
       {{ range .Data.Pages }}
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 masonry-item">
             <div class="box-masonry">
-              <a href="{{ .RelPermalink | absURL}}" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+              <a href="{{ .RelPermalink }}" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
                   <img src="../../{{ .Params.image }}" alt="" class="img-responsive">
               </a>
               <div class="box-masonry-text">
-                <h4><a href="{{ .RelPermalink | urlize }}">{{ .Title }}</a></h4>
+                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
               </div>
             </div>
           </div>
