@@ -1,4 +1,4 @@
-baseurl = "conorclaffey.com"
+baseurl = "conorclaffey.com/"
 title = "Conor Claffey"
 theme = "cc"
 languageCode = "en-us"
@@ -12,7 +12,7 @@ category = "categories"
 series = "series"
 
 [permalinks]
-photography = "/photography/:title/"
+photography = /photography/:title/
 
 [params]
   title1 = "CONOR"
