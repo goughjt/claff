@@ -1,4 +1,4 @@
-baseurl = "conorclaffey.com/"
+baseurl = "http://conorclaffey.com/"
 title = "Conor Claffey"
 theme = "cc"
 languageCode = "en-us"
