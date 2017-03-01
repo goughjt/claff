@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Conor Claffey</title>
+    <link>http://conorclaffey.com/projects/index.xml</link>
+    <description>Recent content in Projects on Conor Claffey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 21:32:44 +0000</lastBuildDate>
+    <atom:link href="http://conorclaffey.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PWC Calendar</title>
+      <link>http://conorclaffey.com/projects/pwc_calendar/</link>
+      <pubDate>Sun, 22 Jan 2017 21:32:55 +0000</pubDate>
+      
+      <guid>http://conorclaffey.com/projects/pwc_calendar/</guid>
+      <description>&lt;p&gt;The brief was to sell Ireland as a top country to do business in. The clients suggested we answer the brief using photography. I chose to highlight Ireland&amp;rsquo;s rich literary past, portraying the country as a land of intellectuals and visionaries.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pages</title>
+      <link>http://conorclaffey.com/projects/pages_2/</link>
+      <pubDate>Sun, 22 Jan 2017 21:32:30 +0000</pubDate>
+      
+      <guid>http://conorclaffey.com/projects/pages_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>It was a pleasure</title>
+      <link>http://conorclaffey.com/projects/it_was_a_pleasure/</link>
+      <pubDate>Sun, 22 Jan 2017 21:32:08 +0000</pubDate>
+      
+      <guid>http://conorclaffey.com/projects/it_was_a_pleasure/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

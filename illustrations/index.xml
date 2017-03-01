@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Illustrations on Conor Claffey</title>
+    <link>http://conorclaffey.com/illustrations/index.xml</link>
+    <description>Recent content in Illustrations on Conor Claffey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 21:32:44 +0000</lastBuildDate>
+    <atom:link href="http://conorclaffey.com/illustrations/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>illust1</title>
+      <link>http://conorclaffey.com/illustrations/illust1/</link>
+      <pubDate>Sun, 22 Jan 2017 21:32:44 +0000</pubDate>
+      
+      <guid>http://conorclaffey.com/illustrations/illust1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
