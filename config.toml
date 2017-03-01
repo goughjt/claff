@@ -11,6 +11,9 @@ tag = "tags"
 category = "categories"
 series = "series"
 
+[permalinks]
+"photography" = "/photography/:title/"
+
 [params]
   title1 = "CONOR"
   title2 = "CLAFFEY"
