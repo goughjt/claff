@@ -12,7 +12,7 @@ category = "categories"
 series = "series"
 
 [permalinks]
-"photography" = "/photography/:title/"
+photography = "/photography/:title/"
 
 [params]
   title1 = "CONOR"
