@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column">
+    {{ partial "mobileNavToggle.html" . }}
+      <div class="box-masonry">
+        <div class="box-masonry-text">
+          <h4>{{ .Title }}</h4>
+        </div>
+      </div>
+    {{ .Content }}
+    <p>helllooohjihio</p>
+    <img src="../../{{ .Params.image }}" alt="" class="content-main-image">
+    </div>
+</div>
+{{ end }}

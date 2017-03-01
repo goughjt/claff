@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-10 content-column">
+  {{ partial "mobileNavToggle.html" . }}
+  <div class="grid">
+    <p>{{ .Data.Pages }}</p>
+    <p>{{ .Data.Sections }}</p>
+    <div class="row">
+      {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 masonry-item">
+            <div class="box-masonry">
+              <a href="{{ "/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+            </div>
+          </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{ end }}

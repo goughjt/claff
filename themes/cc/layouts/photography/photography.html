@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ if and (isset .Params "image") .Params.image }}
+    <a href="{{ .Title }}" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+        <img src="../../{{ .Params.image }}" alt="" class="img-responsive">
+    </a>
+    {{end}}
+    <div class="box-masonry-text">
+      <p>PHOTO LIST LAYOUT WORKING</p>
+      <p>{{ .Content }}</p>
+    </div>
+{{ end }}
