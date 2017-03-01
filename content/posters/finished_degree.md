@@ -10,21 +10,3 @@ categories = [
   "Posters"
 ]
 +++
-
-This is my final degree
-
-<!--more-->
-
-I did these things
-
-1. Classes
-2. Pictures
-
-> So that is why college was good
-
-## The results
-
-The results were promising
-
-* Ordered
-* Progress
