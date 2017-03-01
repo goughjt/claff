@@ -1,17 +1,19 @@
 <div id="sidebar" class="col-xs-4 col-sm-4 col-md-2 sidebar-offcanvas">
   <div class="sidebar-content">
-    <h1 class="sidebar-heading"><a href="/"><img src="../../img/logo.jpg" alt="{{ .Site.Params.Title1 }} {{ .Site.Params.Title2 }}"></a></h1>
     <!-- {{ range .Site.Params.sidebarAbout }}
       <p class="sidebar-p">{{ . | safeHTML }}</p>
     {{ end }} -->
-    {{if not .IsHome}}
+    {{if .IsHome}}
+      <h1 class="sidebar-heading"><a href="/"><img src="../../img/sortTheseOut/logo.jpg" alt="{{ .Site.Params.Title1 }} {{ .Site.Params.Title2 }}"></a></h1>
+    {{else}}
+      <h1 class="sidebar-heading">{{upper .Title }}</h1>
       <ul class="sidebar-menu">
         {{ $url := .Site.BaseURL }}
         {{ range .Site.Params.navlinks }}
-          <li><a href="categories/{{ .url }}">{{ .name }}</a></li>
+          <li><a href="/{{ .url }}">{{ .name }}</a></li>
         {{ end }}
       </ul>
-      {{end}}
+    {{end}}
 
     {{ partial "socialButtonsInSideBar.html" . }}
 

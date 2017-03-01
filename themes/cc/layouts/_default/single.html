@@ -1,8 +1,7 @@
 {{ define "main" }}
-<div class="col-xs-12 col-sm-8 col-md-9 content-column">
+<div class="col-xs-12 col-sm-8 col-md-9 content-single-column">
     {{ partial "mobileNavToggle.html" . }}
-     <h1>{{ .Title }}</h1>
-     <p>This is single_default</p>
-    </div>
+    {{ .Content }}
+    <img src="../../{{ .Params.image }}" alt="" class="content-main-image">
 </div>
 {{ end }}

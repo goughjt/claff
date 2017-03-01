@@ -1,4 +1,8 @@
 /* your styles go here */
+body {
+  background-color: #ffffff;
+}
+
 html, body, #all {
   height: 100%
 }
@@ -123,13 +127,50 @@ p.social a {
   margin-left: 50px;
 }
 
+.content-main-image {
+  max-width: 90%;
+}
+
+.content-main-title {
+  font-variant: small-caps;
+}
+
+.btn-ghost {
+  border-width: 8px;
+  border-color: black;
+  color: black;
+}
+
+.small-navbar {
+  padding-left: 15px;
+}
+
+
+.sidebar-menu li a {
+  color: black;
+}
+
+.anti-ad-item {
+  border: black;
+  border-style: solid;
+  /*height: 200px;*/
+  border-width: 12px;
+  background-color: white;
+  width: 100%;
+}
+
+.anti-ad-text {
+  width: 50%;
+  padding-left: 10px;
+}
+
 /*get those little arrows in the center of the category links*/
 .box-masonry .box-masonry-image.with-hover-icon::after {
     top: 100px;
 }
 
 .img-responsive {
-    max-width: 150%;
+    max-width: 200%;
 }
 
 @media (max-width: 767px) {
